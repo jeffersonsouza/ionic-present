@@ -6,7 +6,12 @@
 
 body {
 	@include bodyBackground();
-	background-color: $backgroundColor;
+	// background-color: $backgroundColor;
+	background: url(../img/cs-bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .reveal {
@@ -335,5 +340,3 @@ body {
 .reveal .slide-number {
   color: $linkColor;
 }
-
-
